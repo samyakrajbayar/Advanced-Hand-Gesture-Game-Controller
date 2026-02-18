@@ -392,3 +392,5 @@ For questions, suggestions, or issues:
 **Enjoy gaming with gestures!** 🎮✨
 
 *Computer Vision meets Gaming - Experience the magic of hands-free control!*
+
+**gl**

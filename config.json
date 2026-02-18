@@ -1,0 +1,256 @@
+{
+  "profiles": {
+    "temple_run": {
+      "name": "Temple Run",
+      "description": "Control Temple Run with hand gestures - Jump over obstacles, slide under barriers, and turn at corners",
+      "sensitivity": 1.0,
+      "smoothing": 5,
+      "gestures": {
+        "fist": {
+          "name": "Slide",
+          "key": "down",
+          "cooldown": 0.4,
+          "hold_time": 0.1,
+          "description": "Slide under obstacles"
+        },
+        "open_hand": {
+          "name": "Jump",
+          "key": "up",
+          "cooldown": 0.4,
+          "hold_time": 0.1,
+          "description": "Jump over obstacles"
+        },
+        "point_left": {
+          "name": "Turn Left",
+          "key": "left",
+          "cooldown": 0.5,
+          "hold_time": 0.2,
+          "description": "Turn left at corners"
+        },
+        "point_right": {
+          "name": "Turn Right",
+          "key": "right",
+          "cooldown": 0.5,
+          "hold_time": 0.2,
+          "description": "Turn right at corners"
+        },
+        "thumb_up": {
+          "name": "Pause",
+          "key": "p",
+          "cooldown": 1.0,
+          "hold_time": 0.5,
+          "description": "Pause game"
+        }
+      }
+    },
+    "subway_surfers": {
+      "name": "Subway Surfers",
+      "description": "Control Subway Surfers - Roll under barriers, jump over trains, switch lanes",
+      "sensitivity": 1.2,
+      "smoothing": 4,
+      "gestures": {
+        "fist": {
+          "name": "Roll",
+          "key": "down",
+          "cooldown": 0.4,
+          "hold_time": 0.1,
+          "description": "Roll under barriers"
+        },
+        "open_hand": {
+          "name": "Jump",
+          "key": "up",
+          "cooldown": 0.4,
+          "hold_time": 0.1,
+          "description": "Jump over trains"
+        },
+        "point_left": {
+          "name": "Move Left",
+          "key": "left",
+          "cooldown": 0.3,
+          "hold_time": 0.1,
+          "description": "Move to left lane"
+        },
+        "point_right": {
+          "name": "Move Right",
+          "key": "right",
+          "cooldown": 0.3,
+          "hold_time": 0.1,
+          "description": "Move to right lane"
+        },
+        "peace_sign": {
+          "name": "Hoverboard",
+          "key": "space",
+          "cooldown": 2.0,
+          "hold_time": 0.3,
+          "description": "Activate hoverboard"
+        }
+      }
+    },
+    "racing": {
+      "name": "Racing Games",
+      "description": "Steering wheel style controls for racing games",
+      "sensitivity": 1.5,
+      "smoothing": 3,
+      "gestures": {
+        "point_left": {
+          "name": "Steer Left",
+          "key": "left",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Steer left"
+        },
+        "point_right": {
+          "name": "Steer Right",
+          "key": "right",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Steer right"
+        },
+        "fist": {
+          "name": "Brake",
+          "key": "down",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Apply brakes"
+        },
+        "open_hand": {
+          "name": "Accelerate",
+          "key": "up",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Accelerate"
+        },
+        "thumb_up": {
+          "name": "Nitro",
+          "key": "space",
+          "cooldown": 5.0,
+          "hold_time": 0.5,
+          "description": "Use nitro boost"
+        }
+      }
+    },
+    "platformer": {
+      "name": "Platformer",
+      "description": "Classic platformer controls - Jump, move, crouch, attack",
+      "sensitivity": 1.0,
+      "smoothing": 5,
+      "gestures": {
+        "open_hand": {
+          "name": "Jump",
+          "key": "space",
+          "cooldown": 0.3,
+          "hold_time": 0.1,
+          "description": "Jump"
+        },
+        "point_left": {
+          "name": "Move Left",
+          "key": "a",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Move left"
+        },
+        "point_right": {
+          "name": "Move Right",
+          "key": "d",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Move right"
+        },
+        "fist": {
+          "name": "Crouch",
+          "key": "s",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Crouch/duck"
+        },
+        "peace_sign": {
+          "name": "Attack",
+          "key": "j",
+          "cooldown": 0.5,
+          "hold_time": 0.1,
+          "description": "Attack/action"
+        }
+      }
+    },
+    "fps": {
+      "name": "FPS Games",
+      "description": "First-person shooter controls",
+      "sensitivity": 1.0,
+      "smoothing": 4,
+      "gestures": {
+        "point_up": {
+          "name": "Look Up",
+          "key": "w",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Move forward/look up"
+        },
+        "point_down": {
+          "name": "Look Down",
+          "key": "s",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Move backward/look down"
+        },
+        "point_left": {
+          "name": "Strafe Left",
+          "key": "a",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Strafe left"
+        },
+        "point_right": {
+          "name": "Strafe Right",
+          "key": "d",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Strafe right"
+        },
+        "fist": {
+          "name": "Crouch",
+          "key": "ctrl",
+          "cooldown": 0.2,
+          "hold_time": 0.0,
+          "description": "Crouch"
+        },
+        "open_hand": {
+          "name": "Reload",
+          "key": "r",
+          "cooldown": 2.0,
+          "hold_time": 0.2,
+          "description": "Reload weapon"
+        },
+        "peace_sign": {
+          "name": "Fire",
+          "key": "space",
+          "cooldown": 0.1,
+          "hold_time": 0.0,
+          "description": "Fire weapon"
+        }
+      }
+    }
+  },
+  "settings": {
+    "camera": {
+      "device_id": 0,
+      "width": 1280,
+      "height": 720,
+      "fps": 30
+    },
+    "detection": {
+      "min_detection_confidence": 0.7,
+      "min_tracking_confidence": 0.7,
+      "max_num_hands": 1
+    },
+    "performance": {
+      "show_fps": true,
+      "show_landmarks": true,
+      "show_gesture_panel": true,
+      "show_control_guide": true
+    },
+    "input": {
+      "failsafe_enabled": true,
+      "key_pause": 0.01
+    }
+  }
+}
